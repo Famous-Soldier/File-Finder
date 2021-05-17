@@ -48,8 +48,6 @@ def getfile(url,name):
 
 
 subprocess.run('cls',shell=True)
-#x = threading.Thread(target=generate)
-#x.start()
 ui_proxy = input('Please enter http proxy >> ')
 proxy = {
         'http':ui_proxy
