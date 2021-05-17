@@ -4,7 +4,7 @@ colorama.init()
 
 com_name = ['unknown.png','image0.png','wallet.dat','file.txt']
 
-
+# Famous Soldier | https://github.com/Famous-Soldier
 
 def generate():
 	url = 'https://cdn.discordapp.com/attachments/'
