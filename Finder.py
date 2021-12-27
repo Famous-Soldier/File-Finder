@@ -16,7 +16,7 @@ def generate():
 			getfile(url + i, i)
 		elif validate(url+i) == '@':
 			print(Fore.RED + '[!] Ratelimit occuring... temporarily suspending process')
-			input('')
+			time.sleep(30)
 		elif validate(url+i) == False:
 			print('[%] Not valid')
 		else:
